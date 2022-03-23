@@ -1,0 +1,11 @@
+"""
+配置文件
+"""
+
+DEBUG = True
+
+# 数据库配置
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:123456@127.0.0.1/flask-cms'
+SQLALCHEMY_TRACK_MODIFICATIONS = True
+SQLALCHEMY_TRACK_TEARDOWN = True
+SQLALCHEMY_ECHO = True
